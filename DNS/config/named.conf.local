@@ -1,0 +1,8 @@
+zone "sakamotoplatino.com" {
+        type master;
+        file "/var/lib/bind/db.sakamotoplatino.com";
+        notify explicit;
+        allow-query {
+        	any;
+        };
+};
